@@ -1,5 +1,5 @@
 --// Load UI Library 
-local Material = require(game:HttpGet("https://raw.githubusercontent.com/HairBaconGamming/Gamming-Material-HUB/main/Main.lua"))()
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/HairBaconGamming/Gamming-Material-HUB/main/Main.lua"))()
 
 local Main = Material:Load({
     Title = "Music Ball",
