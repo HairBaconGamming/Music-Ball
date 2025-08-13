@@ -5,8 +5,6 @@ local Main = Material:Load({
     Title = "Part Tracker",
     SmothDrag = true,
     Key = Enum.KeyCode.RightShift,
-    X = 100,
-    Y = 100,
 })
 
 local Tab = Main:New({
